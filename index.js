@@ -145,7 +145,7 @@ app.delete('/api/product/:productId',(req,res)=>{
 
 
 //conexión a la BD
-mongoose.connect('mongodb://localhost:27017/tienda', config.urlParser,(err, res)=>{
+mongoose.connect('mongodb+srv://alexismundo:leviatan2@cluster0.kmry7.mongodb.net/mundo?retryWrites=true&w=majority', config.urlParser,(err, res)=>{
 
   if(err)
     {
