@@ -23,31 +23,34 @@
 <body>
 
 <header>
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link" href="/">Inicio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/auth/login">Login</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/users/register">Registro</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="/insertar">Ingresar productos</a>
-    </li>
-        <li class="nav-item">
-      <a class="nav-link disabled" href="/api/products">Productos</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CRUD</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Inicio</a></li>
+      <li><a href="/api/products">Productos</a></li>
+      <li><a href="/insertar">Insertar productos</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/users/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="/auth/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
 </nav>
 </header>
 
 
+
+
+
+
+
  <div class="jumbotron">
         <h1 class="display-4">Bienvenido</h1>
-        <p class="lead">ProgramaciÃ³n WEB</p>
+        <p class="lead">Trabajo de la materia: Programación web</p>
+                <p>Unidad 5</p>
         <hr class="my-4">
 
    
